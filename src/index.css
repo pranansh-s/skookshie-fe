@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Varela+Round&display=swap');
+
+input[type="range"]::-webkit-slider-thumb {
+    padding: 0px;
+    box-shadow: -405px 0 0 400px #086972;
+    border-radius: 50%;
+}
